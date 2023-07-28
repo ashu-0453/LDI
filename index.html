@@ -13,51 +13,53 @@
 </head>
 
 <body>
+
+<div class="card">
     <div class="app">
-        <h4 class="text-center mb-3">LDI-Let's Do It</h4>
-        <div id="addNew" data-toggle="modal" data-target="#form">
-            <span>Add New Task</span>
-            <i class="fas fa-plus"></i>
-        </div>
+            <h4 class="text-center mb-3">LDI-Let's Do It</h4>
+            <div id="addNew" data-toggle="modal" data-target="#form">
+                <span>Add New Task</span>
+                <i class="fas fa-plus"></i>
+            </div>
 
-        <!-- Tasks -->
+            <!-- Tasks -->
 
-        <h5 class="text-center my-3">Tasks</h5>
+            <h5 class="text-center my-3">Tasks</h5> <hr>
 
-        <!-- Modal -->
-        <form class="modal fade" id="form" tabindex="-1" 
-        aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <!-- Modal -->
+            <form class="modal fade" id="form" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
 
-            <div class="modal-dialog">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h5 class="modal-title" id="exampleModalLabel">Add New Task</h5>
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                            <span aria-hidden="true">&times;</span>
-                        </button>
-                    </div>
-                    <div class="modal-body">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Add New Task</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
 
-                        <p>Task Title</p>
-                        <input class="form-control" type="text" name="" id="textInput">
-                        <div id="msg" class="text-danger"></div>
-                        <br>
-                        <p>Due Date</p>
-                        <input class="form-control" type="date" name="" id="dateInput"> <br>
-                        <p>Description</p>
-                        <textarea class="form-control" name="" id="textarea" cols="30" rows="5">
+                            <p>Task Title</p>
+                            <input class="form-control" type="text" name="" id="textInput">
+                            <div id="msg" class="text-danger"></div>
+                            <br>
+                            <p>Due Date</p>
+                            <input class="form-control" type="date" name="" id="dateInput"> <br>
+                            <p>Description</p>
+                            <textarea class="form-control" name="" id="textarea" cols="30" rows="5">
                         </textarea><br>
-                    </div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                        <button type="submit" id="add" class="btn btn-primary">Add</button>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                            <button type="submit" id="add" class="btn btn-primary">Add</button>
+                        </div>
                     </div>
                 </div>
+            </form>
+
+            <div id="tasks">
+
             </div>
-        </form>
-
-        <div id="tasks">
-
         </div>
     </div>
 
