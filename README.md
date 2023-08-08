@@ -1,5 +1,5 @@
 # LDI - Let's Do It
-https://ashu-0453.github.io/LDI/
+https://ldi-letsdoit.netlify.app/
 
 • LDI - Let's Do It is a To-Do website where one can post about his/her schedule on a particular date.
 Also, It provides us an option to edit the Tasks in case of any modification or error.
